@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+   
+
+}
+
+header{
+    max-width: 1560;
+    height: 100vh;
+    max-height: 100;
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+               url(./Assets/himalaya.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+   text-align:justify;
+   text-decoration: none;
+
+
+}
+
+nav{
+    color: black;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    text-decoration: none;
+   padding: 15px 20px;
+
+}
+
+
+.Menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.Menu a:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 0%;
+    height:100%;
+  border-bottom: 2px solid indianred;
+  transition: 0.3s linear;
+  
+
+
+}
+
+.Menu a:hover:before{
+    width: 90%;
+
+}
+
+
+
+
+.Register a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: whitesmoke;
+   font-size: 20px;
+   background: indianred;
+   border-radius: 8px;
+ transition: 0.3s linear;
+  
+}
+.Register a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+
+
+.text{
+    max-width: 650px;
+    position: absolute;
+    top:  60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    text-align: center;
+    color: aquamarine;
+    letter-spacing: 2px;
+   
+}
+
+.text a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 10px;
+   background: indianred;
+   border-radius: 10px;
+ transition: 0.2s linear;
+ letter-spacing: 1px;
+ text-align: center;
+}
+
+.text a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+
+ }
+
+
+
+
+
